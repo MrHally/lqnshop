@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+ul {
+	list-style-type: none;
+	color: #000000;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	background-color: #3D5A80;
+	color: #FFFCF2;
+	padding: 10px;
+	width: 120px;
+	cursor: pointer;
+}
+
+li a:hover, a.active{
+	background-color: rgb(135, 191, 255, 1.0);
+	color: #FFFCF2;
+}
